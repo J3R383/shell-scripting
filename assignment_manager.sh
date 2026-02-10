@@ -32,4 +32,6 @@ if cp "${ASSIGNMENT_NAME}.tar.gz" "$SUBMISSION_DIR/"; then
 	echo "Submitted to $SUBMISSION_DIR"
 else
 	echo "Error: Submission failed. Please check path."
+fi
+echo "---Process completed---"
 
